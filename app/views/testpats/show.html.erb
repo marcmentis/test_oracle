@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Firstname:</strong>
+  <%= @testpat.firstname %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @testpat.lastname %>
+</p>
+
+<p>
+  <strong>Identifier:</strong>
+  <%= @testpat.identifier %>
+</p>
+
+<%= link_to 'Edit', edit_testpat_path(@testpat) %> |
+<%= link_to 'Back', testpats_path %>

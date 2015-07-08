@@ -1,11 +1,11 @@
 TestGitlab2::Application.routes.draw do
-  resources :patients
+  resources :testpats
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'patients#index'
+  root 'testpats#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -1,0 +1,31 @@
+<h1>Listing testpats</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Identifier</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @testpats.each do |testpat| %>
+      <tr>
+        <td><%= testpat.firstname %></td>
+        <td><%= testpat.lastname %></td>
+        <td><%= testpat.identifier %></td>
+        <td><%= link_to 'Show', testpat %></td>
+        <td><%= link_to 'Edit', edit_testpat_path(testpat) %></td>
+        <td><%= link_to 'Destroy', testpat, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Testpat', new_testpat_path %>

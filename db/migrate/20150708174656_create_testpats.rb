@@ -1,6 +1,6 @@
-class CreatePatients < ActiveRecord::Migration
+class CreateTestpats < ActiveRecord::Migration
   def change
-    create_table :patients do |t|
+    create_table :testpats do |t|
       t.string :firstname
       t.string :lastname
       t.string :identifier

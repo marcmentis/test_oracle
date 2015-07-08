@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150708174656) do
+ActiveRecord::Schema.define(version: 20150708193208) do
 
   create_table "testpats", force: true do |t|
     t.string   "firstname"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20150708174656) do
     t.string   "identifier"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "col1"
   end
 
 end

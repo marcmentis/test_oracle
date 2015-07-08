@@ -32,16 +32,16 @@ production:
   # password: "gan1dolf2"
   # socket_mysql: "/var/run/mysqld/mysqld.sock"
 
-  # adapter: <%= CONFIG[:adapter1_oracle] %>
-  # database: <%= CONFIG[:database1] %>
-  # username: <%= CONFIG[:username1] %>
-  # password: <%= CONFIG[:password1] %>
+  adapter: <%= CONFIG[:adapter1_oracle] %>
+  database: <%= CONFIG[:database1] %>
+  username: <%= CONFIG[:username1] %>
+  password: <%= CONFIG[:password1] %>
 
 
-  adapter: <%= CONFIG[:adapter1_mysql] %>
-  database: <%= CONFIG[:databaseB] %>
-  username: <%= CONFIG[:usernameB] %>
-  password: <%= CONFIG[:passwordB] %>
-  encoding: <%= CONFIG[:encodingB] %>
-  pool: <%= CONFIG[:poolB] %>
-  socket: <%= CONFIG[:socketB] %>
+  # adapter: <%= CONFIG[:adapter1_mysql] %>
+  # database: <%= CONFIG[:databaseB] %>
+  # username: <%= CONFIG[:usernameB] %>
+  # password: <%= CONFIG[:passwordB] %>
+  # encoding: <%= CONFIG[:encodingB] %>
+  # pool: <%= CONFIG[:poolB] %>
+  # socket: <%= CONFIG[:socketB] %>

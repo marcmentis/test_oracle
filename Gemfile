@@ -5,8 +5,9 @@ gem 'rails', '4.0.2'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
-# Use mysql2 as the database
-gem 'mysql2'
+# Use oracle as the database
+gem "activerecord-oracle_enhanced-adapter", "~> 1.5.0"
+gem 'ruby-oci8', '~> 2.1.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'

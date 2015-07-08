@@ -13,14 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20150708174656) do
 
-  create_table "patients", force: true do |t|
-    t.string   "firstname"
-    t.string   "lastname"
-    t.string   "identifier"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "testpats", force: true do |t|
     t.string   "firstname"
     t.string   "lastname"
